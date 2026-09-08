@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <img src="floppy_drive_5_25_cool-0.png" alt="Ícone Sistema" width="90" height="90">
+            <img src="assets/floppy_drive_5_25_cool-0.png" alt="Ícone Sistema" width="90" height="90">
             <div class="title-bar">
             <h1 class="title-bar-text">Windows 98 aesthetics</h1>
 
@@ -23,11 +23,50 @@
             <li><u>A</u>Arquivo</li>
             <li><u>E</u>Editar</li>
             <li><u>E</u>Exibir</li>
-            <li><u>F</u>Favoritos</li>
+            <li><u>F</u>Favoritos</li>   
             <li><u>A</u>Ajuda</li>     
         </ul>
         </header>
-        <main></main>
-        <footer></footer>
+        <main>
+            <div class="desktop">
+                <div class="curiosity-panel">
+                    <p>
+                        Selecione um tópico para mostrar uma curiosidade sobre o Windows 98.
+                    </p>
+
+                    <div class="buttons-grid">
+                        <button class="curiosity-trigger" data-id="1">📌 Curiosidade 01: O Som de Inicialização</button>
+                        <button class="curiosity-trigger" data-id="2">📌 Curiosidade 02: O codinome secreto </button>
+                        <button class="curiosity-trigger" data-id="3">📌 Curiosidade 03: Requisitos de Sistema</button>
+                        <button class="curiosity-trigger" data-id="4">📌 Curiosidade 04: O Easter Egg na tela de créditos</button>
+                        <button class="curiosity-trigger" data-id="5">📌 Curiosidade 05: A famosa "Tela Azul" ao vivo</button>
+                        <button class="curiosity-trigger" data-id="6">📌 Curiosidade 06: Integração com a Internet</button>
+                        <button class="curiosity-trigger" data-id="7">📌 Curiosidade 07: O mistério dos Temas de Desktop</button>
+                        <button class="curiosity-trigger" data-id="8">📌 Curiosidade 08: Jogos Nativos Inesquecíveis</button>
+                        <button class="curiosity-trigger" data-id="9">📌 Curiosidade 09: O fim do suporte oficial</button>
+                        <button class="curiosity-trigger" data-id="10">📌 Curiosidade 10: O verdadeiro sucessor </button>
+                    </div>
+                </div>
+
+                <div id="curiosity-window" class="window">
+
+                    <div class="title-bar">
+                        <span class="title-bar-text">Fato Curioso.txt</span>
+                        <div class="title-bar-controls">
+                            <button id="close-window-btn" >X</button>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <p id="curiosity-text"> A curiosidade aparecerá aqui...</p>
+
+                        <div>
+                            <button id="ok-window-btn">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
     </body>
 </html>
