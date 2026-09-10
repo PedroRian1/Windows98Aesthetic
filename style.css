@@ -71,3 +71,101 @@ header img {
         background-color: #000080;
         color: #ffffff;
     }
+main.desktop {
+    background-color: #008080;
+    min-height: calc(100vh - 60px);
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'MS Sans Serif', Tahoma, Arial, sans-serif;
+
+}
+.curiosity-panel {
+    background-color: #c0c0c0;
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+
+    box-shadow:
+    inset 1px 1px #ffffff,
+    inset -1px -1px #c0c0c0,
+    inset 2px 2px #dfdfdf,
+    inset -2px -2px #808080;
+}
+
+.curiosity-trigger {
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: inherit;
+    font-size: 13px;
+    text-align: left;
+    padding: 6px 10px;
+    width: 100%;
+    cursor:pointer;
+    border: pointer;
+    outline: none;
+    box-sizing: border-box;
+
+    box-shadow: 
+    inset 1px 1px #ffffff,
+    inset -1px -1px #c0c0c0,
+    inset 2px 2px #dfdfdf,
+    inset -2px -2px #808080;
+}
+.curiosity-trigger:active {
+    box-shadow: 
+    inset -1px -1px #ffffff,
+    inset 1px 1px #c0c0c0,
+    inset -2px -2px #dfdfdf,
+    inset 2px 2px #808080;
+    padding-top: 7px;
+    padding-left: 11px;
+}
+.window {
+    background-color: #c0c0c0;
+    padding: 3px;
+
+    box-shadow:
+    inset 1px 1px #ffffff,
+    inset -1px -1px #c0c0c0,
+    inset 2px 2px #dfdfdf,
+    inset -2px -2px #808080;
+}
+.window-body {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+    margin: 4px;
+
+    box-shadow:
+    inset 1px 1px #808080,
+    inset -1px -1px #ffffff,
+    inset 2px 2px #0a0a0a,
+    inset -2px -2px #dfdfdf;
+}
+#ok-window-btn {
+    background: #c0c0c0;
+    color: #000000;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    box-shadow:
+    inset 1px 1px #ffffff,
+    inset -1px -1px #0a0a0a,
+    inset 2px 2px #dfdfdf,
+    inset -2px -2px #808080;
+}
+#ok-window-btn:active {
+    box-shadow:
+    inset -1px -1px #ffffff,
+    inset 1px 1px #0a0a0a,
+    inset -2px -2px #dfdfdf,
+    inset 2px 2px #808080;
+    padding-top: 5px;
+    padding-left: 26px;
+}
