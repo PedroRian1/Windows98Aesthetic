@@ -171,6 +171,12 @@ main.desktop {
     inset 2px 2px #808080;
     padding-top: 5px;
     padding-left: 26px;
+
+.taskbar-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 }
 footer.taskbar {
     position: fixed;
@@ -187,7 +193,7 @@ footer.taskbar {
     z-index: 999;
     font-family: 'MS Sans Serif', Tahoma, Arial, sans-serif;
     border-top: 2px solid #ffffff;
-    box-shadow: 0 -1px 0 0 #808080
+    box-shadow: 0 -1px 0 0 #808080;
 }
 #start-button {
     background: #c0c0c0;
@@ -203,6 +209,7 @@ footer.taskbar {
     cursor: pointer;
     border: none;
     outline: none;
+    flex-shrink: 0;
 
     box-shadow:
     inset 1px 1px #ffffff,
@@ -228,13 +235,17 @@ start-button:active {
   border: none;
   outline: none;
   height: 22px;
-  padding: 2px 8px;
+  padding: 2px 6px;
   cursor: pointer;
   box-shadow: 
     inset 1px 1px #ffffff, 
     inset -1px -1px #0a0a0a, 
     inset 2px 2px #dfdfdf, 
     inset -2px -2px #808080;
+  display: flex;
+  align-items: center ;
+  gap: 4px;
+
 }
 
 .app-tab:active {
@@ -266,6 +277,6 @@ start-button:active {
 
 #clock-display {
   color: #000000;
-  font-size: 12px;
+  font-size: 12px; 
   font-weight: bold;
 }
