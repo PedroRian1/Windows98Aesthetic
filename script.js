@@ -37,7 +37,6 @@ function atualizarRelogio() {
   const displayRelogio = document.getElementById('clock-display');
   
   if (!displayRelogio) return;
-git
   const agora = new Date();
   let horas = agora.getHours();
   let minutos = agora.getMinutes();
